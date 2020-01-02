@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "2b2ccbff6014063f586e62643b839d63",
+    "content-hash": "24809492e4f83f53b4b3e32017f4c72d",
     "packages": [
         {
             "name": "fancyguy/webroot-installer",
@@ -50,16 +50,16 @@
         },
         {
             "name": "symfony/polyfill-ctype",
-            "version": "v1.10.0",
+            "version": "v1.13.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
-                "reference": "e3d826245268269cd66f8326bd8bc066687b4a19"
+                "reference": "f8f0b461be3385e56d6de3dbb5a0df24c0c275e3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/e3d826245268269cd66f8326bd8bc066687b4a19",
-                "reference": "e3d826245268269cd66f8326bd8bc066687b4a19",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/f8f0b461be3385e56d6de3dbb5a0df24c0c275e3",
+                "reference": "f8f0b461be3385e56d6de3dbb5a0df24c0c275e3",
                 "shasum": ""
             },
             "require": {
@@ -71,7 +71,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.9-dev"
+                    "dev-master": "1.13-dev"
                 }
             },
             "autoload": {
@@ -88,12 +88,12 @@
             ],
             "authors": [
                 {
-                    "name": "Symfony Community",
-                    "homepage": "https://symfony.com/contributors"
+                    "name": "Gert de Pagter",
+                    "email": "BackEndTea@gmail.com"
                 },
                 {
-                    "name": "Gert de Pagter",
-                    "email": "backendtea@gmail.com"
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
                 }
             ],
             "description": "Symfony polyfill for ctype functions",
@@ -104,7 +104,7 @@
                 "polyfill",
                 "portable"
             ],
-            "time": "2018-08-06T14:22:27+00:00"
+            "time": "2019-11-27T13:56:44+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -159,10 +159,10 @@
         },
         {
             "name": "wordpress",
-            "version": "5.1.1",
+            "version": "5.3.2",
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/WordPress/WordPress/archive/5.1.1.zip",
+                "url": "https://github.com/WordPress/WordPress/archive/5.3.2.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -179,12 +179,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/heroku/heroku-buildpack-php.git",
-                "reference": "6957c99ad679c07c520ae64669e39a9dd751d523"
+                "reference": "8d807ac5975ec17c4d49b60982a7bebe1ae70dac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/heroku/heroku-buildpack-php/zipball/6957c99ad679c07c520ae64669e39a9dd751d523",
-                "reference": "6957c99ad679c07c520ae64669e39a9dd751d523",
+                "url": "https://api.github.com/repos/heroku/heroku-buildpack-php/zipball/8d807ac5975ec17c4d49b60982a7bebe1ae70dac",
+                "reference": "8d807ac5975ec17c4d49b60982a7bebe1ae70dac",
                 "shasum": ""
             },
             "bin": [
@@ -215,7 +215,7 @@
                 "nginx",
                 "php"
             ],
-            "time": "2019-03-13T20:58:00+00:00"
+            "time": "2019-12-20T10:56:23+00:00"
         }
     ],
     "aliases": [],
@@ -226,7 +226,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=5.3.0"
+        "php": ">=7.0.0"
     },
     "platform-dev": []
 }
